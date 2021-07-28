@@ -1,0 +1,132 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+}
+
+figure {
+    margin: 0;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover {
+    color: #000000;
+}
+
+.map__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+#map {
+    height: 100vh;
+    width: calc(100vw - 600px);
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: auto;
+    width: 600px;
+}
+
+.items li {
+    list-style-type: none;
+}
+
+.items .item {
+    display: flex;
+}
+
+.items .item .wrapper {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.items .item .rating {
+    margin-top: 10px;
+}
+
+.items .item .rating .fa-star.active {
+    color: #ff8c00;
+}
+
+.items .item .price {
+    margin-top: 10px;
+}
+
+.items .item .type {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.items .item .image {
+    max-width: 50%;
+    width: 100%;
+}
+
+.items .item .image img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cluster {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.infobox {
+    background: #ffffff;
+}
+
+.infobox .image {
+    position: relative;
+}
+
+.infobox img {
+    display: block;
+}
+
+.infobox .overlay {
+    position: absolute;
+    bottom: 0;
+    background: #fff;
+    width: 100%;
+    left: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.infobox a {
+    color: #333333;
+}
+
+.infobox .meta {
+    padding: 5px 10px 10px 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.infobox .meta .price {
+    margin-top: 15px;
+}
+
+.fade-in-marker > img {
+    z-index: 1;
+}
