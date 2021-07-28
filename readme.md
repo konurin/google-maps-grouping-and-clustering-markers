@@ -50,9 +50,9 @@ Structure data: </br>
 **price** - cost of services </br>
 **gallery** - images (adding only 1 image works now) </br>
 
-###Main Screen
+### Main Screen
 
 ![Screenshot](assets/img/screenshot_1.jpg)
 
-###Info Window
+### Info Window
 ![Screenshot](assets/img/screenshot_2.jpg)
