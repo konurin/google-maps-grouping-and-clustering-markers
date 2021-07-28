@@ -50,9 +50,17 @@ Structure data: </br>
 **price** - cost of services </br>
 **gallery** - images (adding only 1 image works now) </br>
 
-### Main Screen
+### How to start:
+1. Сlone repository
+2. Register new google maps API key here: </br>
+   https://developers.google.com/maps/documentation/javascript/get-api-key
+3. replace the line [YOUR_KEY_HERE] in the index.html file with your key
+4. Change data in file - **/assets/json/items.js**
+5. Enjoy)
+
+### Main Screen:
 
 ![Screenshot](assets/img/screenshot_1.jpg)
 
-### Info Window
+### Info Window:
 ![Screenshot](assets/img/screenshot_2.jpg)
